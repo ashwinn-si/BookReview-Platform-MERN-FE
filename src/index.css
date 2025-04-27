@@ -8,3 +8,6 @@ html{
 section {
     scroll-margin-top: 50px; /* or whatever your navbar height is */
 }
+*{
+    text-transform: capitalize;
+}
