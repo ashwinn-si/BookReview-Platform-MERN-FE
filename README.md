@@ -4,13 +4,13 @@ A modern web platform where users can explore, review, and share their thoughts 
 
 This is the **frontend** repository of the BookReview Platform project.
 
----
+
 
 ## Live Demo
 
 [Visit Live Website](https://book-review-ashwin.vercel.app/)
 
----
+
 
 ## Tech Stack
 
@@ -18,13 +18,12 @@ This is the **frontend** repository of the BookReview Platform project.
 - **Backend:** Node.js, Express.js
 - **Database:** MongoDB 
 
----
+
 
 ## Backend Repository
 
 [BookReview Platform Backend Repo](https://github.com/ashwinn-si/BookReview-Platform-MERN-BE)
 
----
 
 ##  Features
 
@@ -36,7 +35,7 @@ This is the **frontend** repository of the BookReview Platform project.
 - Fully responsive and modern UI.
 - Admin dashboard for adding and removing books, as well as managing book suggestions.
 - Secure API interactions with backend services.
----
+
 
 ## 🧩 Project Structure
 
@@ -56,7 +55,7 @@ BookReview-Platform-MERN-FE/
 └── README.md           # You're reading it 
 ```
 
----
+
 
 ## 📦 Installation & Setup
 
@@ -85,9 +84,6 @@ BookReview-Platform-MERN-FE/
 
 5. Make sure the backend server is also running locally or use a deployed backend.
 
----
-
-##  Demo Video Link
 
 
 
