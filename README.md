@@ -22,7 +22,7 @@ This is the **frontend** repository of the BookReview Platform project.
 
 ## Backend Repository
 
-[BookReview Platform Backend Repo](https://your-backend-repo-link-here.com)
+[BookReview Platform Backend Repo](https://github.com/ashwinn-si/BookReview-Platform-MERN-BE)
 
 ---
 
