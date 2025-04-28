@@ -74,9 +74,7 @@ export default function SignUp() {
                         message: response.message,
                     })
                 },[1000])
-                setTimeout(() => {
-                    navigate("/profile");
-                },[2000])
+                
             }).catch((err) => {
                 const response = err.response.data;
                 setTimeout(() => {
