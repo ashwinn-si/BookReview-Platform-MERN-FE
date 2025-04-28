@@ -114,8 +114,8 @@ export default function Profile() {
                                     <>
                                         <div className="flex flex-col">
                                             {
-                                                viewReview?.map((review) => (
-                                                    <ReviewCard bookname={review.name} review={review.review} stars={review.stars} author={review.author} />
+                                                viewReview?.map((review, index) => (
+                                                    <ReviewCard bookname={review.bookId.name} review={review.review} stars={review.stars} author={review.bookId.author} key={index}/>
                                                 ))
                                             }
                                         </div>

@@ -41,7 +41,6 @@ export default function Profile() {
     function fetchReviews() {
         api.get(`/book/book-details?id=${bookId}`).then((res) => {
             const response = res.data;
-            console.log(response);
             setBookDetails(response.bookDetails);
             const base64String = btoa(
                 new Uint8Array(response.bookImageData.image.data.data).reduce((data, byte) => data + String.fromCharCode(byte), '')
