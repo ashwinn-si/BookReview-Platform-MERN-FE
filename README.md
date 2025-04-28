@@ -6,7 +6,7 @@ This is the **frontend** repository of the BookReview Platform project.
 
 
 
-## Live Demo
+## Live Website Link
 
 [Visit Live Website](https://book-review-ashwin.vercel.app/)
 
