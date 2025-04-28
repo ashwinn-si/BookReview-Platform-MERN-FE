@@ -18,7 +18,13 @@ export default function BookCard({ Book }) {
             <div className="p-3 sm:p-4 flex flex-col lg:flex-row justify-between items-center bg-gray-50 w-full mt-auto">
                 <div className="flex items-center gap-1">
                     <Star fill="#D4A373" color="#D4A373" size={18} className="sm:w-5 sm:h-5" />
-                    <p className="font-medium text-gray-700 text-sm sm:text-base">{Book?.stars}</p>
+                    {
+                        Book?.stars === -1 ? (
+                            <p className="font-medium text-gray-700 text-sm sm:text-base">No Reviews</p>
+                        ) : (
+                            <p className="font-medium text-gray-700 text-sm sm:text-base">{Book?.stars}</p>
+                        )
+                    }
                 </div>
                 <div>
                     <button className="px-3 py-1 mt-2 lg:mt-0 sm:px-4 sm:py-2 bg-primary text-white text-sm sm:text-base font-medium rounded hover:bg-opacity-90 transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-opacity-50"
