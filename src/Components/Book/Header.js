@@ -9,10 +9,6 @@ export default function Header({ name = "Loading..!", author = "Loading..!", sta
                 <h1 className="text-base sm:text-lg font-semibold text-primaryText font-header mr-2">Author:</h1>
                 <span className="text-accent text-lg sm:text-xl font-medium break-words">{author}</span>
             </div>
-            <div className="flex flex-wrap items-center">
-                <h1 className="text-base sm:text-lg font-semibold text-primaryText font-header mr-2">Stars:</h1>
-                <span className="text-accent text-lg sm:text-xl font-medium break-words">{stars}</span>
-            </div>
         </div>
     );
 }
